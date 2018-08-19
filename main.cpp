@@ -5,6 +5,7 @@
 
 int main() {
   //it was added
+  //2 
   //3
   std::vector<Student> v;
   v.push_back(Student(1, "Kowalska1", "Anna1"));
