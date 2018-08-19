@@ -4,7 +4,7 @@ CXXFLAGS = -Wall -Wpedantic -Wextra -Wc++11-extensions
 SRCS = $(wildcard *.cpp)
 OBJS = $(SRCS:.cpp=.o)
 TARGET = a.out
-
+#
 .PHONY: all
 all:$(TARGET)
 
